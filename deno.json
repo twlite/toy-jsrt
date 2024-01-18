@@ -1,0 +1,7 @@
+{
+    "tasks": {
+        "build": "deno compile --output ./build/runtime.exe -A ./runtime/main.ts",
+        "dev": "deno run -A ./runtime/main.ts",
+        "test": "./build/runtime.exe"
+    }
+}
